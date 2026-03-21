@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<NAXML-POSJournal version="3.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naxml.org/POSBO/Vocabulary/2003-10-16">
+	<TransmissionHeader>
+		<StoreLocationID>66021</StoreLocationID>
+		<VendorName>Bulloch</VendorName>
+		<VendorModelVersion>BT9000 Petro Canada 071201</VendorModelVersion>
+	</TransmissionHeader>
+	<JournalReport>
+		<JournalHeader>
+			<ReportSequenceNumber>001158</ReportSequenceNumber>
+			<PrimaryReportPeriod interval="day">2026-02-17</PrimaryReportPeriod>
+			<SecondaryReportPeriod interval="other">10089</SecondaryReportPeriod>
+			<BeginDate>2026-02-17</BeginDate>
+			<BeginTime>18:57:05</BeginTime>
+			<EndDate>2026-02-17</EndDate>
+			<EndTime>18:57:20</EndTime>
+			<BusinessDate>2026-02-17</BusinessDate>
+		</JournalHeader>
+		<SaleEvent uuid="001158">
+			<EventSequenceID>001158</EventSequenceID>
+			<TrainingModeFlag value="no" />
+			<CashierID>manager</CashierID>
+			<RegisterID>1</RegisterID>
+			<OutsideSalesFlag value="no" />
+			<TransactionID>001158</TransactionID>
+			<EventStartDate>2026-02-17</EventStartDate>
+			<EventStartTime>18:57:05</EventStartTime>
+			<EventEndDate>2026-02-17</EventEndDate>
+			<EventEndTime>18:57:25</EventEndTime>
+			<BusinessDate>2026-02-17</BusinessDate>
+			<ReceiptDate>2026-02-17</ReceiptDate>
+			<ReceiptTime>18:57:20</ReceiptTime>
+			<OfflineFlag value="no" />
+			<SuspendFlag value="no" />
+			<StoreHierarchyID>66021</StoreHierarchyID>
+			<TransactionDetailGroup>
+				<TransactionLine status="normal">
+					<TransactionLineSequenceNumber>1</TransactionLineSequenceNumber>
+					<FuelLine>
+						<FuelGradeID>1</FuelGradeID>
+						<FuelPositionID>9</FuelPositionID>
+						<PriceTierCode>0</PriceTierCode>
+						<TimeTierCode>0</TimeTierCode>
+						<ServiceLevelCode>self</ServiceLevelCode>
+						<Description>REGULAR</Description>
+						<EntryMethod method="other" />
+						<ActualSalesPrice currency="CAD">0.970</ActualSalesPrice>
+						<MerchandiseCode>1</MerchandiseCode>
+						<Promotion>
+							<PromotionID>00000000F1005</PromotionID>
+							<PromotionReason>RBC 3CPL        </PromotionReason>
+							<PromotionAmount currency="CAD">0.30</PromotionAmount>
+						</Promotion>
+						<RegularSellPrice currency="CAD">1.000</RegularSellPrice>
+						<SalesQuantity uom="liter">10.000</SalesQuantity>
+						<SalesAmount currency="CAD">9.70</SalesAmount>
+					</FuelLine>
+					<Extension>
+						<PumpType>Manual</PumpType>
+					</Extension>
+				</TransactionLine>
+				<TransactionLine status="normal">
+					<TransactionLineSequenceNumber>2</TransactionLineSequenceNumber>
+					<ItemLine>
+						<ItemCode>
+							<POSCodeFormat format="plu" checkDigit="absent" />
+							<POSCode>0000000051338</POSCode>
+							<POSCodeModifier name="ea">0</POSCodeModifier>
+							<InventoryItemID>000051338</InventoryItemID>
+						</ItemCode>
+						<Description>473ML MONSTER</Description>
+						<EntryMethod method="PLU" />
+						<ActualSalesPrice currency="CAD">4.79</ActualSalesPrice>
+						<MerchandiseCode>020001</MerchandiseCode>
+						<RegularSellPrice currency="CAD">4.79</RegularSellPrice>
+						<SalesQuantity>1</SalesQuantity>
+						<SalesAmount currency="CAD">4.79</SalesAmount>
+						<ItemTax>
+							<TaxLevelID taxLevelSequenceID="1">FHST</TaxLevelID>
+							<TaxCollectedAmount currency="CAD">0.24</TaxCollectedAmount>
+							<TaxableSalesAmount currency="CAD">4.79</TaxableSalesAmount>
+						</ItemTax>
+						<ItemTypeCode>MDSE</ItemTypeCode>
+						<ItemTypeSubCode>mdse</ItemTypeSubCode>
+						<SalesRestrictCode>null</SalesRestrictCode>
+					</ItemLine>
+					<FeeLine>
+						<FeeID>Deposits</FeeID>
+						<Description>ItemDeposits</Description>
+						<FeeAmount>0.10</FeeAmount>
+					</FeeLine>
+					<Extension>
+						<NACS_Code>420</NACS_Code>
+					</Extension>
+				</TransactionLine>
+				<TransactionLine status="normal">
+					<TransactionLineSequenceNumber>3</TransactionLineSequenceNumber>
+					<ItemLine>
+						<ItemCode>
+							<POSCodeFormat format="plu" checkDigit="absent" />
+							<POSCode>0000000051338</POSCode>
+							<POSCodeModifier name="ea">0</POSCodeModifier>
+							<InventoryItemID>000051338</InventoryItemID>
+						</ItemCode>
+						<Description>473ML MONSTER</Description>
+						<EntryMethod method="PLU" />
+						<ActualSalesPrice currency="CAD">4.79</ActualSalesPrice>
+						<MerchandiseCode>020001</MerchandiseCode>
+						<RegularSellPrice currency="CAD">4.79</RegularSellPrice>
+						<SalesQuantity>1</SalesQuantity>
+						<SalesAmount currency="CAD">4.79</SalesAmount>
+						<ItemTax>
+							<TaxLevelID taxLevelSequenceID="1">FHST</TaxLevelID>
+							<TaxCollectedAmount currency="CAD">0.24</TaxCollectedAmount>
+							<TaxableSalesAmount currency="CAD">4.79</TaxableSalesAmount>
+						</ItemTax>
+						<ItemTypeCode>MDSE</ItemTypeCode>
+						<ItemTypeSubCode>mdse</ItemTypeSubCode>
+						<SalesRestrictCode>null</SalesRestrictCode>
+					</ItemLine>
+					<FeeLine>
+						<FeeID>Deposits</FeeID>
+						<Description>ItemDeposits</Description>
+						<FeeAmount>0.10</FeeAmount>
+					</FeeLine>
+					<Extension>
+						<NACS_Code>420</NACS_Code>
+					</Extension>
+				</TransactionLine>
+				<TransactionLine status="normal" approverID="manager">
+					<TransactionLineSequenceNumber>4</TransactionLineSequenceNumber>
+					<Loyalty>
+						<AccountInfo>
+							<AccountID>************0039</AccountID>
+						</AccountInfo>
+						<EarnedPointsQuantity>235</EarnedPointsQuantity>
+					</Loyalty>
+					<Extension>
+						<LoyaltyHostName>ESI</LoyaltyHostName>
+					</Extension>
+				</TransactionLine>
+				<TransactionLine status="normal" approverID="manager">
+					<TransactionLineSequenceNumber>5</TransactionLineSequenceNumber>
+					<Loyalty>
+						<AccountInfo>
+							<AccountID>************0039</AccountID>
+						</AccountInfo>
+						<RedeemedPointsQuantity>0</RedeemedPointsQuantity>
+					</Loyalty>
+					<Extension>
+						<LoyaltyHostName>ESI</LoyaltyHostName>
+					</Extension>
+				</TransactionLine>
+				<TransactionLine status="normal">
+					<TransactionLineSequenceNumber>6</TransactionLineSequenceNumber>
+					<TransactionTax>
+						<TaxLevelID taxLevelSequenceID="1">FHST</TaxLevelID>
+						<TaxableSalesAmount currency="CAD">9.58</TaxableSalesAmount>
+						<TaxCollectedAmount currency="CAD">0.48</TaxCollectedAmount>
+					</TransactionTax>
+				</TransactionLine>
+				<TransactionLine status="normal">
+					<TransactionLineSequenceNumber>7</TransactionLineSequenceNumber>
+					<TenderInfo>
+						<Tender>
+							<TenderCode>3</TenderCode>
+							<TenderSubCode>MASTERCARD</TenderSubCode>
+						</Tender>
+						<TenderAmount currency="CAD">19.96</TenderAmount>
+						<ChangeFlag value="no" />
+						<Authorization>
+							<PreAuthorizationFlag value="no" />
+							<RequestedAmount currency="CAD">19.96</RequestedAmount>
+							<AuthorizationResponseCode>01</AuthorizationResponseCode>
+							<AuthorizationResponseDescription>027 APPROVED</AuthorizationResponseDescription>
+							<ApprovalReferenceCode>T45720  </ApprovalReferenceCode>
+							<ReferenceNumber>0010014490</ReferenceNumber>
+							<ProviderID>Moneris</ProviderID>
+							<AuthorizationDate>2026-02-17</AuthorizationDate>
+							<AuthorizationTime>18:57:20</AuthorizationTime>
+							<HostAuthorizedFlag value="yes" />
+							<AuthorizationApprovalDescription>027 APPROVED</AuthorizationApprovalDescription>
+							<AuthorizingTerminalID>S6602101</AuthorizingTerminalID>
+							<ForceOnLineFlag value="no" />
+							<ElectronicSignature />
+							<AuthorizedChargeAmount currency="CAD">19.96</AuthorizedChargeAmount>
+							<CardInfo>
+								<EntryMethod method="swipe" />
+								<AccountID>************0039</AccountID>
+							</CardInfo>
+						</Authorization>
+					</TenderInfo>
+				</TransactionLine>
+			</TransactionDetailGroup>
+			<TransactionSummary>
+				<TransactionTotalGrossAmount currency="CAD">19.48</TransactionTotalGrossAmount>
+				<TransactionTotalNetAmount currency="CAD">19.48</TransactionTotalNetAmount>
+				<TransactionTotalTaxExemptAmount currency="CAD">0.00</TransactionTotalTaxExemptAmount>
+				<TransactionTotalTaxNetAmount currency="CAD">0.48</TransactionTotalTaxNetAmount>
+				<TransactionTotalGrandAmount currency="CAD">19.96</TransactionTotalGrandAmount>
+			</TransactionSummary>
+			<Extension>
+				<LoyaltyTransactionID>1158</LoyaltyTransactionID>
+				<MobilaInvoiceNumber>200</MobilaInvoiceNumber>
+				<SoleilTenderID>1004</SoleilTenderID>
+				<DealGroups>
+					<DealGroup item="00000000F1005">
+						<Item>00000000F1005</Item>
+						<AvailableAlways>true</AvailableAlways>
+						<DealCompleted>true</DealCompleted>
+						<DealQualifier>LOY ONLINE RBC 3C</DealQualifier>
+						<DealQualifier>LOCD365FUEL</DealQualifier>
+						<EndDate>2056-12-31</EndDate>
+						<English_Description>RBC 3CPL          </English_Description>
+						<French_Description>RBC 3CPL          </French_Description>
+						<FuelOnly>false</FuelOnly>
+						<HomeOfficeDeal>true</HomeOfficeDeal>
+						<Item_Number>00000000F1005</Item_Number>
+						<LineItemType>DealGroupLineItem</LineItemType>
+						<PromotionIDFromNACS>F1005</PromotionIDFromNACS>
+						<PromotionReasonFromNACS>Fuel</PromotionReasonFromNACS>
+						<Quantity>1</Quantity>
+						<RBC_Soleil_Discount>30</RBC_Soleil_Discount>
+						<StartDate>2023-10-26</StartDate>
+						<TimesTriggered>1</TimesTriggered>
+					</DealGroup>
+				</DealGroups>
+			</Extension>
+		</SaleEvent>
+	</JournalReport>
+</NAXML-POSJournal>

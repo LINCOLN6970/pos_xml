@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<NAXML-POSJournal version="3.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naxml.org/POSBO/Vocabulary/2003-10-16">
+	<TransmissionHeader>
+		<StoreLocationID>02711</StoreLocationID>
+		<VendorName>Bulloch</VendorName>
+		<VendorModelVersion>BT9000 Petro Canada 070308</VendorModelVersion>
+	</TransmissionHeader>
+	<JournalReport>
+		<JournalHeader>
+			<ReportSequenceNumber>000222</ReportSequenceNumber>
+			<PrimaryReportPeriod interval="day">2025-11-18</PrimaryReportPeriod>
+			<SecondaryReportPeriod interval="other">20054</SecondaryReportPeriod>
+			<BeginDate>2025-11-18</BeginDate>
+			<BeginTime>16:21:10</BeginTime>
+			<EndDate>2025-11-18</EndDate>
+			<EndTime>16:21:26</EndTime>
+			<BusinessDate>2025-11-18</BusinessDate>
+		</JournalHeader>
+		<SaleEvent uuid="000222">
+			<EventSequenceID>000222</EventSequenceID>
+			<TrainingModeFlag value="no" />
+			<CashierID>manager</CashierID>
+			<RegisterID>2</RegisterID>
+			<OutsideSalesFlag value="no" />
+			<TransactionID>000222</TransactionID>
+			<EventStartDate>2025-11-18</EventStartDate>
+			<EventStartTime>16:21:10</EventStartTime>
+			<EventEndDate>2025-11-18</EventEndDate>
+			<EventEndTime>16:21:28</EventEndTime>
+			<BusinessDate>2025-11-18</BusinessDate>
+			<ReceiptDate>2025-11-18</ReceiptDate>
+			<ReceiptTime>16:21:26</ReceiptTime>
+			<OfflineFlag value="no" />
+			<SuspendFlag value="no" />
+			<StoreHierarchyID>02711</StoreHierarchyID>
+			<TransactionDetailGroup>
+				<TransactionLine status="normal">
+					<TransactionLineSequenceNumber>1</TransactionLineSequenceNumber>
+					<FuelPrepayLine>
+						<FuelPositionID>1</FuelPositionID>
+						<MerchandiseCode>1</MerchandiseCode>
+						<SalesAmount currency="CAD">30.00</SalesAmount>
+					</FuelPrepayLine>
+				</TransactionLine>
+				<TransactionLine status="normal">
+					<TransactionLineSequenceNumber>2</TransactionLineSequenceNumber>
+					<ItemLine>
+						<ItemCode>
+							<POSCodeFormat format="plu" checkDigit="absent" />
+							<POSCode>0000000081558</POSCode>
+							<POSCodeModifier name="ea">0</POSCodeModifier>
+							<InventoryItemID>000081558</InventoryItemID>
+						</ItemCode>
+						<Description>RBH DRUM 50G</Description>
+						<EntryMethod method="PLU" />
+						<ActualSalesPrice currency="CAD">79.79</ActualSalesPrice>
+						<MerchandiseCode>020024</MerchandiseCode>
+						<RegularSellPrice currency="CAD">79.79</RegularSellPrice>
+						<SalesQuantity>1</SalesQuantity>
+						<SalesAmount currency="CAD">79.79</SalesAmount>
+						<ItemTax>
+							<TaxLevelID taxLevelSequenceID="1">GST</TaxLevelID>
+							<TaxCollectedAmount currency="CAD">3.99</TaxCollectedAmount>
+							<TaxableSalesAmount currency="CAD">79.79</TaxableSalesAmount>
+						</ItemTax>
+						<ItemTypeCode>MDSE</ItemTypeCode>
+						<ItemTypeSubCode>mdse</ItemTypeSubCode>
+						<SalesRestriction>
+							<MinimumCustomerAge>19</MinimumCustomerAge>
+						</SalesRestriction>
+					</ItemLine>
+					<Extension>
+						<NACS_Code>412</NACS_Code>
+					</Extension>
+				</TransactionLine>
+				<TransactionLine status="normal">
+					<TransactionLineSequenceNumber>3</TransactionLineSequenceNumber>
+					<ItemLine>
+						<ItemCode>
+							<POSCodeFormat format="plu" checkDigit="absent" />
+							<POSCode>0000000080099</POSCode>
+							<POSCodeModifier name="ea">0</POSCodeModifier>
+							<InventoryItemID>000080099</InventoryItemID>
+						</ItemCode>
+						<Description>SUPERWORKS</Description>
+						<EntryMethod method="PLU" />
+						<ActualSalesPrice currency="CAD">12.99</ActualSalesPrice>
+						<MerchandiseCode>080080</MerchandiseCode>
+						<RegularSellPrice currency="CAD">12.99</RegularSellPrice>
+						<SalesQuantity>2</SalesQuantity>
+						<SalesAmount currency="CAD">25.98</SalesAmount>
+						<ItemTax>
+							<TaxLevelID taxLevelSequenceID="1">GST</TaxLevelID>
+							<TaxCollectedAmount currency="CAD">1.30</TaxCollectedAmount>
+							<TaxableSalesAmount currency="CAD">25.98</TaxableSalesAmount>
+						</ItemTax>
+						<ItemTypeCode>CARW</ItemTypeCode>
+						<ItemTypeSubCode>carwash</ItemTypeSubCode>
+						<SalesRestrictCode>null</SalesRestrictCode>
+					</ItemLine>
+					<WashCodeLine>
+						<WashCode>80308344684</WashCode>
+						<WashCodeExpirationDate>2026-05-17</WashCodeExpirationDate>
+						<WashCodeDescription>SUPERWORKS</WashCodeDescription>
+					</WashCodeLine>
+					<Extension>
+						<NACS_Code>102</NACS_Code>
+					</Extension>
+				</TransactionLine>
+				<TransactionLine status="normal">
+					<TransactionLineSequenceNumber>4</TransactionLineSequenceNumber>
+					<TransactionTax>
+						<TaxLevelID taxLevelSequenceID="1">GST</TaxLevelID>
+						<TaxableSalesAmount currency="CAD">105.77</TaxableSalesAmount>
+						<TaxCollectedAmount currency="CAD">5.29</TaxCollectedAmount>
+					</TransactionTax>
+				</TransactionLine>
+				<TransactionLine status="normal">
+					<TransactionLineSequenceNumber>5</TransactionLineSequenceNumber>
+					<TransactionTax>
+						<TaxLevelID taxLevelSequenceID="2">QST</TaxLevelID>
+						<TaxableSalesAmount currency="CAD">79.79</TaxableSalesAmount>
+						<TaxCollectedAmount currency="CAD">0.00</TaxCollectedAmount>
+					</TransactionTax>
+				</TransactionLine>
+				<TransactionLine status="normal">
+					<TransactionLineSequenceNumber>6</TransactionLineSequenceNumber>
+					<TenderInfo>
+						<Tender>
+							<TenderCode>2</TenderCode>
+							<TenderSubCode>VISA</TenderSubCode>
+						</Tender>
+						<TenderAmount currency="CAD">141.06</TenderAmount>
+						<ChangeFlag value="no" />
+						<Authorization>
+							<PreAuthorizationFlag value="yes" />
+							<RequestedAmount currency="CAD">141.06</RequestedAmount>
+							<AuthorizationResponseCode>01</AuthorizationResponseCode>
+							<AuthorizationResponseDescription>027 APPROVED</AuthorizationResponseDescription>
+							<ApprovalReferenceCode>B47947  </ApprovalReferenceCode>
+							<ReferenceNumber>0010017110</ReferenceNumber>
+							<ProviderID>Moneris</ProviderID>
+							<AuthorizationDate>2025-11-18</AuthorizationDate>
+							<AuthorizationTime>16:21:26</AuthorizationTime>
+							<HostAuthorizedFlag value="yes" />
+							<AuthorizationApprovalDescription>027 APPROVED</AuthorizationApprovalDescription>
+							<AuthorizingTerminalID>S0271102</AuthorizingTerminalID>
+							<ForceOnLineFlag value="no" />
+							<ElectronicSignature />
+							<AuthorizedChargeAmount currency="CAD">141.06</AuthorizedChargeAmount>
+							<CardInfo>
+								<EntryMethod method="swipe" />
+								<AccountID>************0018</AccountID>
+							</CardInfo>
+						</Authorization>
+					</TenderInfo>
+				</TransactionLine>
+			</TransactionDetailGroup>
+			<TransactionSummary>
+				<TransactionTotalGrossAmount currency="CAD">135.77</TransactionTotalGrossAmount>
+				<TransactionTotalNetAmount currency="CAD">135.77</TransactionTotalNetAmount>
+				<TransactionTotalTaxExemptAmount currency="CAD">0.00</TransactionTotalTaxExemptAmount>
+				<TransactionTotalTaxNetAmount currency="CAD">5.29</TransactionTotalTaxNetAmount>
+				<TransactionTotalGrandAmount currency="CAD">141.06</TransactionTotalGrandAmount>
+			</TransactionSummary>
+			<Extension>
+				<LoyaltyTransactionID>222</LoyaltyTransactionID>
+				<MobilaInvoiceNumber>146</MobilaInvoiceNumber>
+				<SoleilTenderID>1005</SoleilTenderID>
+				<DealGroups>
+					<DealGroup item="00000000F0113">
+						<Item>00000000F0113</Item>
+						<AvailableAlways>true</AvailableAlways>
+						<DealCompleted>true</DealCompleted>
+						<DealQualifier>LOCD365FUEL</DealQualifier>
+						<EndDate>2056-12-31</EndDate>
+						<English_Description>CW 5CPL           </English_Description>
+						<French_Description>CW 5CPL           </French_Description>
+						<FuelOnly>false</FuelOnly>
+						<HomeOfficeDeal>true</HomeOfficeDeal>
+						<Item_Number>00000000F0113</Item_Number>
+						<LineItemType>DealGroupLineItem</LineItemType>
+						<PromotionIDFromNACS>F0113</PromotionIDFromNACS>
+						<PromotionReasonFromNACS>Fuel</PromotionReasonFromNACS>
+						<Quantity>1</Quantity>
+						<StartDate>2023-10-26</StartDate>
+						<TimesTriggered>1</TimesTriggered>
+					</DealGroup>
+				</DealGroups>
+			</Extension>
+		</SaleEvent>
+	</JournalReport>
+</NAXML-POSJournal>

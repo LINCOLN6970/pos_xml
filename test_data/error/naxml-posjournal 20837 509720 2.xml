@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<NAXML-POSJournal version="3.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naxml.org/POSBO/Vocabulary/2003-10-16">
+	<TransmissionHeader>
+		<StoreLocationID>35250</StoreLocationID>
+		<VendorName>Bulloch</VendorName>
+		<VendorModelVersion>BT9000 Petro Canada 070312</VendorModelVersion>
+	</TransmissionHeader>
+	<JournalReport>
+		<JournalHeader>
+			<ReportSequenceNumber>509720</ReportSequenceNumber>
+			<PrimaryReportPeriod interval="day">2026-02-26</PrimaryReportPeriod>
+			<SecondaryReportPeriod interval="other">20837</SecondaryReportPeriod>
+			<BeginDate>2026-02-26</BeginDate>
+			<BeginTime>22:18:34</BeginTime>
+			<EndDate>2026-02-26</EndDate>
+			<EndTime>22:19:08</EndTime>
+			<BusinessDate>2026-02-26</BusinessDate>
+		</JournalHeader>
+		<SaleEvent uuid="509720">
+			<EventSequenceID>509720</EventSequenceID>
+			<TrainingModeFlag value="no" />
+			<CashierID>simran</CashierID>
+			<RegisterID>2</RegisterID>
+			<OutsideSalesFlag value="no" />
+			<TransactionID>509720</TransactionID>
+			<EventStartDate>2026-02-26</EventStartDate>
+			<EventStartTime>22:18:34</EventStartTime>
+			<EventEndDate>2026-02-26</EventEndDate>
+			<EventEndTime>22:19:15</EventEndTime>
+			<BusinessDate>2026-02-26</BusinessDate>
+			<ReceiptDate>2026-02-26</ReceiptDate>
+			<ReceiptTime>22:19:08</ReceiptTime>
+			<OfflineFlag value="no" />
+			<SuspendFlag value="no" />
+			<StoreHierarchyID>35250</StoreHierarchyID>
+			<TransactionDetailGroup>
+				<TransactionLine status="normal">
+					<TransactionLineSequenceNumber>1</TransactionLineSequenceNumber>
+					<FuelPrepayLine>
+						<FuelPositionID>4</FuelPositionID>
+						<MerchandiseCode>1</MerchandiseCode>
+						<SalesAmount currency="CAD">50.00</SalesAmount>
+					</FuelPrepayLine>
+				</TransactionLine>
+				<TransactionLine status="normal" approverID="simran">
+					<TransactionLineSequenceNumber>2</TransactionLineSequenceNumber>
+					<Loyalty>
+						<AccountInfo>
+							<AccountID>************6157</AccountID>
+						</AccountInfo>
+						<LoyaltyTransactionID>509720</LoyaltyTransactionID>
+						<EarnedPointsQuantity>503</EarnedPointsQuantity>
+						<LoyaltyQuantity>1</LoyaltyQuantity>
+					</Loyalty>
+					<Extension>
+						<LoyaltyHostName>ESI</LoyaltyHostName>
+					</Extension>
+				</TransactionLine>
+				<TransactionLine status="normal" approverID="simran">
+					<TransactionLineSequenceNumber>3</TransactionLineSequenceNumber>
+					<Loyalty>
+						<AccountInfo>
+							<AccountID>************6157</AccountID>
+						</AccountInfo>
+						<LoyaltyTransactionID>509720</LoyaltyTransactionID>
+						<RedeemedPointsQuantity>0</RedeemedPointsQuantity>
+						<LoyaltyQuantity>0</LoyaltyQuantity>
+					</Loyalty>
+					<Extension>
+						<LoyaltyHostName>ESI</LoyaltyHostName>
+					</Extension>
+				</TransactionLine>
+				<TransactionLine status="normal">
+					<TransactionLineSequenceNumber>4</TransactionLineSequenceNumber>
+					<TenderInfo>
+						<Tender>
+							<TenderCode>2</TenderCode>
+							<TenderSubCode>VISA</TenderSubCode>
+						</Tender>
+						<TenderAmount currency="CAD">50.00</TenderAmount>
+						<ChangeFlag value="no" />
+						<Authorization>
+							<PreAuthorizationFlag value="yes" />
+							<RequestedAmount currency="CAD">50.00</RequestedAmount>
+							<AuthorizationResponseCode>01</AuthorizationResponseCode>
+							<AuthorizationResponseDescription>027 APPROVED</AuthorizationResponseDescription>
+							<ApprovalReferenceCode>072759  </ApprovalReferenceCode>
+							<ReferenceNumber>0010018270</ReferenceNumber>
+							<ProviderID>Moneris</ProviderID>
+							<AuthorizationDate>2026-02-26</AuthorizationDate>
+							<AuthorizationTime>22:19:08</AuthorizationTime>
+							<HostAuthorizedFlag value="yes" />
+							<AuthorizationApprovalDescription>027 APPROVED</AuthorizationApprovalDescription>
+							<AuthorizingTerminalID>S3525002</AuthorizingTerminalID>
+							<ForceOnLineFlag value="no" />
+							<ElectronicSignature />
+							<AuthorizedChargeAmount currency="CAD">50.00</AuthorizedChargeAmount>
+							<CardInfo>
+								<EntryMethod method="nfc" />
+								<AccountID>************6157</AccountID>
+							</CardInfo>
+						</Authorization>
+					</TenderInfo>
+				</TransactionLine>
+			</TransactionDetailGroup>
+			<TransactionSummary>
+				<TransactionTotalGrossAmount currency="CAD">50.00</TransactionTotalGrossAmount>
+				<TransactionTotalNetAmount currency="CAD">50.00</TransactionTotalNetAmount>
+				<TransactionTotalTaxExemptAmount currency="CAD">0.00</TransactionTotalTaxExemptAmount>
+				<TransactionTotalTaxNetAmount currency="CAD">0.00</TransactionTotalTaxNetAmount>
+				<TransactionTotalGrandAmount currency="CAD">50.00</TransactionTotalGrandAmount>
+			</TransactionSummary>
+			<Extension>
+				<LoyaltyTransactionID>509720</LoyaltyTransactionID>
+				<MobilaInvoiceNumber>365812</MobilaInvoiceNumber>
+				<SoleilTenderID>1004</SoleilTenderID>
+				<DealGroups>
+					<DealGroup item="00000000F1003">
+						<Item>00000000F1003</Item>
+						<AvailableAlways>true</AvailableAlways>
+						<DealCompleted>true</DealCompleted>
+						<DealQualifier>LOY ONLINE RBC 3C</DealQualifier>
+						<DealQualifier>LOCD365FUEL</DealQualifier>
+						<EndDate>2056-12-31</EndDate>
+						<English_Description>RBC 3CPL          </English_Description>
+						<French_Description>RBC 3CPL          </French_Description>
+						<FuelOnly>false</FuelOnly>
+						<HomeOfficeDeal>true</HomeOfficeDeal>
+						<Item_Number>00000000F1003</Item_Number>
+						<LineItemType>DealGroupLineItem</LineItemType>
+						<PromotionIDFromNACS>F1003</PromotionIDFromNACS>
+						<PromotionReasonFromNACS>Fuel</PromotionReasonFromNACS>
+						<Quantity>1</Quantity>
+						<RBC_Soleil_Discount>125</RBC_Soleil_Discount>
+						<StartDate>2023-10-26</StartDate>
+						<TimesTriggered>1</TimesTriggered>
+					</DealGroup>
+				</DealGroups>
+			</Extension>
+		</SaleEvent>
+	</JournalReport>
+</NAXML-POSJournal>

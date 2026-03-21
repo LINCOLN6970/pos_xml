@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<NAXML-POSJournal version="3.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naxml.org/POSBO/Vocabulary/2003-10-16">
+	<TransmissionHeader>
+		<StoreLocationID>14141</StoreLocationID>
+		<VendorName>Bulloch</VendorName>
+		<VendorModelVersion>BT9000 Petro Canada 070312</VendorModelVersion>
+	</TransmissionHeader>
+	<JournalReport>
+		<JournalHeader>
+			<ReportSequenceNumber>959591</ReportSequenceNumber>
+			<PrimaryReportPeriod interval="day">2026-03-01</PrimaryReportPeriod>
+			<SecondaryReportPeriod interval="other">15917</SecondaryReportPeriod>
+			<BeginDate>2026-03-01</BeginDate>
+			<BeginTime>22:38:10</BeginTime>
+			<EndDate>2026-03-01</EndDate>
+			<EndTime>22:38:15</EndTime>
+			<BusinessDate>2026-03-01</BusinessDate>
+		</JournalHeader>
+		<SaleEvent uuid="959591">
+			<EventSequenceID>959591</EventSequenceID>
+			<TrainingModeFlag value="no" />
+			<CashierID>manager</CashierID>
+			<RegisterID>1</RegisterID>
+			<OutsideSalesFlag value="no" />
+			<TransactionID>959591</TransactionID>
+			<EventStartDate>2026-03-01</EventStartDate>
+			<EventStartTime>22:38:10</EventStartTime>
+			<EventEndDate>2026-03-01</EventEndDate>
+			<EventEndTime>23:15:29</EventEndTime>
+			<BusinessDate>2026-03-01</BusinessDate>
+			<ReceiptDate>2026-03-01</ReceiptDate>
+			<ReceiptTime>22:38:15</ReceiptTime>
+			<OfflineFlag value="no" />
+			<SuspendFlag value="no" />
+			<StoreHierarchyID>14141</StoreHierarchyID>
+			<TransactionDetailGroup>
+				<TransactionLine status="normal">
+					<TransactionLineSequenceNumber>1</TransactionLineSequenceNumber>
+					<FuelLine>
+						<FuelGradeID>3</FuelGradeID>
+						<FuelPositionID>6</FuelPositionID>
+						<PriceTierCode>0</PriceTierCode>
+						<TimeTierCode>0</TimeTierCode>
+						<ServiceLevelCode>self</ServiceLevelCode>
+						<Description>SUPREME</Description>
+						<EntryMethod method="other" />
+						<ActualSalesPrice currency="CAD">1.769</ActualSalesPrice>
+						<MerchandiseCode>3</MerchandiseCode>
+						<RegularSellPrice currency="CAD">1.769</RegularSellPrice>
+						<SalesQuantity uom="liter">28.265</SalesQuantity>
+						<SalesAmount currency="CAD">50.00</SalesAmount>
+					</FuelLine>
+				</TransactionLine>
+				<TransactionLine>
+					<TransactionLineSequenceNumber>2</TransactionLineSequenceNumber>
+					<FuelPrepayLine>
+						<FuelPositionID>6</FuelPositionID>
+						<MerchandiseCode>3</MerchandiseCode>
+						<SalesAmount>-50.00</SalesAmount>
+						<LinkedTransactionInfo>
+							<OriginalTransactionID>959575</OriginalTransactionID>
+						</LinkedTransactionInfo>
+					</FuelPrepayLine>
+				</TransactionLine>
+				<TransactionLine status="normal">
+					<TransactionLineSequenceNumber>3</TransactionLineSequenceNumber>
+					<TenderInfo>
+						<Tender>
+							<TenderCode>cash</TenderCode>
+							<TenderSubCode>CAD</TenderSubCode>
+						</Tender>
+						<TenderAmount currency="CAD">0.00</TenderAmount>
+						<ChangeFlag value="no" />
+					</TenderInfo>
+				</TransactionLine>
+			</TransactionDetailGroup>
+			<TransactionSummary>
+				<TransactionTotalGrossAmount currency="CAD">0.00</TransactionTotalGrossAmount>
+				<TransactionTotalNetAmount currency="CAD">0.00</TransactionTotalNetAmount>
+				<TransactionTotalTaxExemptAmount currency="CAD">0.00</TransactionTotalTaxExemptAmount>
+				<TransactionTotalTaxNetAmount currency="CAD">0.00</TransactionTotalTaxNetAmount>
+				<TransactionTotalGrandAmount currency="CAD">0.00</TransactionTotalGrandAmount>
+			</TransactionSummary>
+			<Extension>
+				<LoyaltyTransactionID>959575</LoyaltyTransactionID>
+				<MobilaInvoiceNumber>747337</MobilaInvoiceNumber>
+			</Extension>
+		</SaleEvent>
+	</JournalReport>
+</NAXML-POSJournal>

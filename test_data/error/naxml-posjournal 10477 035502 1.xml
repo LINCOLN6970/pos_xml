@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<NAXML-POSJournal version="3.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.naxml.org/POSBO/Vocabulary/2003-10-16">
+	<TransmissionHeader>
+		<StoreLocationID>33370</StoreLocationID>
+		<VendorName>Bulloch</VendorName>
+		<VendorModelVersion>BT9000 Petro Canada 070312</VendorModelVersion>
+	</TransmissionHeader>
+	<JournalReport>
+		<JournalHeader>
+			<ReportSequenceNumber>035502</ReportSequenceNumber>
+			<PrimaryReportPeriod interval="day">2026-03-01</PrimaryReportPeriod>
+			<SecondaryReportPeriod interval="other">10477</SecondaryReportPeriod>
+			<BeginDate>2026-03-01</BeginDate>
+			<BeginTime>18:18:13</BeginTime>
+			<EndDate>2026-03-01</EndDate>
+			<EndTime>18:53:42</EndTime>
+			<BusinessDate>2026-03-01</BusinessDate>
+		</JournalHeader>
+		<SaleEvent uuid="035502">
+			<EventSequenceID>035502</EventSequenceID>
+			<TrainingModeFlag value="no" />
+			<CashierID>surekah</CashierID>
+			<RegisterID>1</RegisterID>
+			<OutsideSalesFlag value="yes" />
+			<TransactionID>035502</TransactionID>
+			<EventStartDate>2026-03-01</EventStartDate>
+			<EventStartTime>18:18:13</EventStartTime>
+			<EventEndDate>2026-03-01</EventEndDate>
+			<EventEndTime>18:54:36</EventEndTime>
+			<BusinessDate>2026-03-01</BusinessDate>
+			<ReceiptDate>2026-03-01</ReceiptDate>
+			<ReceiptTime>18:53:42</ReceiptTime>
+			<OfflineFlag value="no" />
+			<SuspendFlag value="no" />
+			<StoreHierarchyID>33370</StoreHierarchyID>
+			<TransactionDetailGroup>
+				<TransactionLine status="normal">
+					<TransactionLineSequenceNumber>1</TransactionLineSequenceNumber>
+					<FuelLine>
+						<FuelGradeID>4</FuelGradeID>
+						<FuelPositionID>4</FuelPositionID>
+						<PriceTierCode>0</PriceTierCode>
+						<TimeTierCode>0</TimeTierCode>
+						<ServiceLevelCode>self</ServiceLevelCode>
+						<Description>ULTRA 94</Description>
+						<EntryMethod method="other" />
+						<ActualSalesPrice currency="CAD">1.679</ActualSalesPrice>
+						<MerchandiseCode>4</MerchandiseCode>
+						<RegularSellPrice currency="CAD">1.679</RegularSellPrice>
+						<SalesQuantity uom="liter">11.912</SalesQuantity>
+						<SalesAmount currency="CAD">20.00</SalesAmount>
+					</FuelLine>
+				</TransactionLine>
+				<TransactionLine status="normal">
+					<TransactionLineSequenceNumber>2</TransactionLineSequenceNumber>
+					<TenderInfo>
+						<Tender>
+							<TenderCode>2</TenderCode>
+							<TenderSubCode>VISA</TenderSubCode>
+						</Tender>
+						<TenderAmount currency="CAD">20.00</TenderAmount>
+						<ChangeFlag value="no" />
+						<Authorization>
+							<PreAuthorizationFlag value="no" />
+							<RequestedAmount currency="CAD">20.00</RequestedAmount>
+							<AuthorizationResponseCode>01</AuthorizationResponseCode>
+							<AuthorizationResponseDescription>027 APPROVED</AuthorizationResponseDescription>
+							<ApprovalReferenceCode>00265I  </ApprovalReferenceCode>
+							<ReferenceNumber>0010012080</ReferenceNumber>
+							<ProviderID>Moneris</ProviderID>
+							<AuthorizationDate>2026-03-01</AuthorizationDate>
+							<AuthorizationTime>18:53:42</AuthorizationTime>
+							<HostAuthorizedFlag value="no" />
+							<AuthorizationApprovalDescription>027 APPROVED</AuthorizationApprovalDescription>
+							<AuthorizingTerminalID>S3337054</AuthorizingTerminalID>
+							<ForceOnLineFlag value="no" />
+							<ElectronicSignature />
+							<AuthorizedChargeAmount currency="CAD">20.00</AuthorizedChargeAmount>
+							<CardInfo>
+								<EntryMethod method="nfc" />
+								<AccountID>************1099</AccountID>
+							</CardInfo>
+						</Authorization>
+					</TenderInfo>
+				</TransactionLine>
+			</TransactionDetailGroup>
+			<TransactionSummary>
+				<TransactionTotalGrossAmount currency="CAD">20.00</TransactionTotalGrossAmount>
+				<TransactionTotalNetAmount currency="CAD">20.00</TransactionTotalNetAmount>
+				<TransactionTotalTaxExemptAmount currency="CAD">0.00</TransactionTotalTaxExemptAmount>
+				<TransactionTotalTaxNetAmount currency="CAD">0.00</TransactionTotalTaxNetAmount>
+				<TransactionTotalGrandAmount currency="CAD">20.00</TransactionTotalGrandAmount>
+			</TransactionSummary>
+			<Extension>
+				<LoyaltyTransactionID>35502</LoyaltyTransactionID>
+				<MobilaInvoiceNumber>310470</MobilaInvoiceNumber>
+			</Extension>
+		</SaleEvent>
+	</JournalReport>
+</NAXML-POSJournal>
