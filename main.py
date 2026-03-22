@@ -7,6 +7,7 @@ from utils.file_writer import write_json
 from extractors.transaction_extractor import TransactionExtractor
 from extractors.shift_summary_extractor import ShiftSummaryExtractor
 from utils import xslt_processor
+from utils.payload_builder import build_payload
 
 
 
@@ -60,6 +61,11 @@ def process_file(input_file, output_file=None):
 
     result = extractor.extract(root)
     write_json(result, output_file)
+    payload = build_payload(result)
+    if payload is not None:
+        output_dir = os.path.dirname(output_file)
+        payload_file = os.path.join(output_dir, "_payload.json")
+        write_json(payload, payload_file)
     return output_file
 
 
